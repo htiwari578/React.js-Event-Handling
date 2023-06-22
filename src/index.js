@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+import ContactDetails from './components/contDetails';
+import MyComp from './components/MyEvent'
+import MyList from './components/myList';
+import MyProduct from './components/productList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <MyProduct/>
+    <MyComp/>
+    <MyList/>
+    <ContactDetails/>
   </React.StrictMode>
 );
 
